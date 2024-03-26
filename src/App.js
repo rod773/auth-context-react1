@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { LoginPage } from "./pages/Login";
-import { HomePage } from "./pages/Home";
-import { ProfilePage } from "./pages/Profile";
-import { SettingsPage } from "./pages/Settings";
-import { ProtectedLayout } from "./components/ProtectedLayout";
-import { HomeLayout } from "./components/HomeLayout";
+import { LoginPage } from "pages/Login";
+import { HomePage } from "pages/Home";
+import { ProfilePage } from "pages/Profile";
+import { SettingsPage } from "pages/Settings";
+import { ProtectedLayout } from "components/ProtectedLayout";
+import { HomeLayout } from "components/HomeLayout";
 import "./styles.css";
 
 export default function App() {
